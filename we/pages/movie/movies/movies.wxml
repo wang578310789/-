@@ -1,0 +1,12 @@
+<view class="container">
+    <view class="content-title">
+        <text>{{Title}}</text>
+    </view>
+    <view class="container-nav">
+        <block wx:for="{{movies}}" wx:key="index">
+            <view catchtap="onClicked" data-id="{{item.id}}">
+                <v-movies imgUrl="{{item.imgUrl}}" title="{{item.title}}" ID="{{item.id}}" year="{{item.year}}" name="{{item.name}}" average="{{item.average}}"></v-movies>
+            </view>
+        </block>
+    </view>
+</view>

@@ -1,0 +1,24 @@
+
+<view class="container">
+    <image src="/images/meigonghe.png" mode="aspectFill" class="banner"></image>
+    <view class="content">
+        <text class="head">豆瓣电影榜单合集</text>
+        <text class="header">最新、最IN的影视信息收集</text>
+    </view>
+    <view class="hot" catchtap="onHot" data-type="{{in_theaters}}">
+        <text>正在热映</text>
+        <text class="right">></text>
+    </view>
+    <view class="soon" catchtap="onHot" data-type="{{coming_soon}}">
+        <text>即将上映</text>
+        <text class="right">></text>
+    </view>
+    <view class="top" catchtap="onHot" data-type="{{top250}}">
+        <text>TOP250</text>
+        <text class="right">></text>
+    </view>
+    <view class="list" catchtap="onList" data-type="{{us_box}}">
+        <text>北美票房榜</text>
+        <text class="right">></text>
+    </view>
+</view>

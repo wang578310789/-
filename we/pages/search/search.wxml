@@ -1,0 +1,10 @@
+<view class="search">
+    <input type="text" placeholder="请输入要搜索的内容" confirm-type="search" bindconfirm="onConfirm"></input>
+</view>
+<view class="container-nav">
+    <block wx:for="{{movies}}" wx:key="index">
+        <view catchtap="onSearch" data-id="{{item.id}}">
+            <v-movies imgUrl="{{item.imgUrl}}" name="{{item.name}}" title="{{item.title}}" ID="{{item.id}}" year="{{item.year}}" average="{{item.average}}"></v-movies>
+        </view>
+    </block>
+</view>

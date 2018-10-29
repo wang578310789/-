@@ -1,0 +1,34 @@
+.item-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 90rpx;
+}
+.item-container image{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60rpx;
+}
+.item-title{
+    text-align: center;
+    font-size: 50rpx;
+    margin: 20rpx 0;
+}
+.item-score,.item-director,.item-star{
+    font-size: 30rpx;
+    color: rgb(148, 148, 148);
+    margin-bottom: 10rpx;
+}
+.item-abstract{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 80rpx;
+}
+.item-abstract .abstract-zy{
+    font-size: 50rpx;
+}
+.item-abstract .zy{
+    color: rgb(148, 148, 148);
+    text-indent: 20px;
+}

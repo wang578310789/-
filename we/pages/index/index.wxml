@@ -1,0 +1,4 @@
+<view class="content">
+    <image src="{{isEmpty?'/images/meigonghe.png':imgUrl}}" catchtap="click"></image>
+    <text>111</text>
+</view>

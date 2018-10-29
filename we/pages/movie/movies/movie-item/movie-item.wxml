@@ -1,0 +1,23 @@
+<view class="item-container">
+    <image src="{{imgUrl}}" mode="widthFix"></image>
+    <view class="item-title">
+        <text>{{title}}</text>
+        <text>({{year}})</text>
+    </view>
+    <view class="item-score">
+        <text>评分：</text>
+        <text>{{average}}</text>
+    </view>
+    <view class="item-director">
+        <text>导演：</text>
+        <text>{{name}}</text>
+    </view>
+    <view class="item-star">
+        <text>主演：</text>
+        <text>{{castsName}}</text>
+    </view>
+    <view class="item-abstract">
+        <text class="abstract-zy">摘要：</text>
+        <text class="zy">{{summary}}</text>
+    </view>
+</view>
